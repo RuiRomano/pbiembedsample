@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/pure.css" />
+
+    <script src="scripts/powerbi.js"></script>
+    <script src="scripts/jquery-3.0.0.js"></script>
+    
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        #toolbar {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 45px;
+            background-color: #fff;
+            padding-top: 8px;
+            border-bottom: solid 1px #000;
+        }
+
+        #embedContainer {
+            position: absolute;
+            top: 0px;
+            bottom: 0;
+            width: 100%;
+            overflow: hidden;
+            /*transition: top linear 1s;*/
+            /*height: 500px;*/
+        }
+
+        body.withOutToolBar #embedContainer {
+            top: 0;
+        }
+
+        body.withOutToolBar #toolbar {
+            display: none;
+        }
+
+        #btFullScreen {
+            margin-left: 8px;
+        }
+
+        iframe {
+            border: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="embedContainer"></div>
+    <script src="scripts/singleVisual.js"></script>
+</body>
+</html>

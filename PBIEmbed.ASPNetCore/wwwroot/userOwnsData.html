@@ -1,0 +1,88 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed Sample</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
+    <!--<![endif]-->
+
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="css/layouts/appOwnsData.css">
+    <!--<![endif]-->
+
+    <script src="scripts/msal.js"></script>
+    <script src="scripts/powerbi.js"></script>
+    <script src="scripts/jquery-3.0.0.js"></script>
+
+
+</head>
+<body>
+
+    <div class="header">
+        <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+            <a class="pure-menu-heading" href=""> User Owns Data Sample</a>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item"> <a href="#" id="btSignInPowerBI" class="pure-menu-link">Sign-In Power BI</a> </li>
+                <li id="workspacesMenuList" class="pure-menu-item pure-menu-has-children pure-menu-allow-hover hidden">
+                    <a href="#" class="pure-menu-link"> Workspaces</a>
+
+                    <ul class="pure-menu-children" id="workspacesMenu"></ul>
+                </li>
+                <li class="pure-menu-item"> <a href="#" id="btExportData" class="pure-menu-link hidden">Export Data to Power BI</a> </li>
+                <li class="pure-menu-item"> <a href="/appOwnsData.html" class="pure-menu-link">App Owns Data</a> </li>
+            </ul>
+
+
+        </div>
+    </div>
+
+    <div class="splash-container">
+        <div class="splash">
+            <h1 class="splash-head"> Welcome</h1>
+            <p class="splash-subhead" id="notificationMsg">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>        
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+
+        <div id="workspacePage" class="content">
+            <h2 id="workspaceTitle" class="content-head is-center">...</h2>
+
+            <div class="pure-menu pure-menu-horizontal pure-menu-scrollable">
+                <ul class="pure-menu-list" id="workspaceReports">
+                </ul>
+            </div>
+
+        </div>
+
+        <div id="reportPage" class="content">
+            <h2 id="reportTitle" class="content-head is-center">...</h2>
+
+            <div class="pure-g">
+
+                <div id="pbiReportContainer"> </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="scripts/userOwnsData.js"></script>
+</body>
+</html>

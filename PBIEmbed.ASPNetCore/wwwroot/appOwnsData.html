@@ -1,0 +1,86 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed Sample</title>
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/grids-responsive-min.css">
+    <!--<![endif]-->
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="css/layouts/appOwnsData.css">
+    <!--<![endif]-->
+
+    <script src="scripts/powerbi.js"></script>
+    <script src="scripts/jquery-3.0.0.js"></script>
+</head>
+<body>
+
+    <div class="header">
+        <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+            <a class="pure-menu-heading" href=""> App Owns Data Sample</a>
+
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item pure-menu-has-children pure-menu-allow-hover">
+                    <a href="#" class="pure-menu-link"> App Reports</a>
+
+                    <ul class="pure-menu-children" id="reportsMenu"></ul>
+
+                </li>                
+                <li class="pure-menu-item"> <a href="/userOwnsData.html" class="pure-menu-link">User Owns Data</a> </li>
+            </ul>
+
+
+        </div>
+    </div>
+
+    <div class="splash-container">
+        <div class="splash">
+            <h1 class="splash-head"> Welcome</h1>
+            <p class="splash-subhead">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            </p>
+            <p>
+                <a href="#" class="pure-button pure-button-primary"> Get Started</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="content-wrapper">
+
+        <div id="reportPage" class="content">
+            <h2 id="reportTitle" class="content-head is-center">...</h2>
+            <div id="reportActionsMenu" class="content-head is-center hidden">
+                <div class="pure-menu pure-menu-horizontal">
+                    <ul class="pure-menu-list">
+                        <li class="pure-menu-item"> <a id="btEdit" class="pure-menu-link">Edit</a> </li>
+                        <li class="pure-menu-item"> <a id="btFilter" class="pure-menu-link">Filter</a> </li>
+                        <li class="pure-menu-item"> <a id="btPrint" class="pure-menu-link">Print</a> </li>
+                    </ul>
+                </div>
+            </div>
+
+         
+
+            <div class="pure-g">
+
+                <div id="pbiReportContainer"> </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="scripts/appOwnsData.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PBIEmbed.ASPNetCore", "PBIEmbed.ASPNetCore\PBIEmbed.ASPNetCore.csproj", "{6BD20B9A-88AD-416C-92DC-EEBC10538569}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DVS|Any CPU = DVS|Any CPU
+		DVSRobots|Any CPU = DVSRobots|Any CPU
+		ESPAP|Any CPU = ESPAP|Any CPU
+		MVP|Any CPU = MVP|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Unilabs|Any CPU = Unilabs|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6BD20B9A-88AD-416C-92DC-EEBC10538569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD20B9A-88AD-416C-92DC-EEBC10538569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD20B9A-88AD-416C-92DC-EEBC10538569}.DVS|Any CPU.ActiveCfg = DVS|Any CPU
+		{6BD20B9A-88AD-416C-92DC-EEBC10538569}.DVS|Any CPU.Build.0 = DVS|Any CPU
+		{6BD20B9A-88AD-416C-92DC-EEBC10538569}.DVSRobots|Any CPU.ActiveCfg = DVSRobots|Any CPU
+		{6BD20B9A-88AD-416C-92DC-EEBC10538569}.DVSRobots|Any CPU.Build.0 = DVSRobots|Any CPU
+		{6BD20B9A-88AD-416C-92DC-EEBC10538569}.ESPAP|Any CPU.ActiveCfg = ESPAP|Any CPU
+		{6BD20B9A-88AD-416C-92DC-EEBC10538569}.ESPAP|Any CPU.Build.0 = ESPAP|Any CPU
+		{6BD20B9A-88AD-416C-92DC-EEBC10538569}.MVP|Any CPU.ActiveCfg = MVP|Any CPU
+		{6BD20B9A-88AD-416C-92DC-EEBC10538569}.MVP|Any CPU.Build.0 = MVP|Any CPU
+		{6BD20B9A-88AD-416C-92DC-EEBC10538569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD20B9A-88AD-416C-92DC-EEBC10538569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD20B9A-88AD-416C-92DC-EEBC10538569}.Unilabs|Any CPU.ActiveCfg = Unilabs|Any CPU
+		{6BD20B9A-88AD-416C-92DC-EEBC10538569}.Unilabs|Any CPU.Build.0 = Unilabs|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {998B0041-E298-4937-ABB3-F61A5B1D1603}
+	EndGlobalSection
+EndGlobal

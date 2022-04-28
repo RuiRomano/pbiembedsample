@@ -1,0 +1,6 @@
+{
+"name":"Theme",
+"dataColors": ["#279af1", "#e1bc29", "#e15554", "#3bb273", "#7768ae"],
+"foreground":"#279af1",
+"tableAccent":"#279af1"
+}
